@@ -46,6 +46,11 @@ ul {
     list-style-type: square;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
 footer {
     background-color: #333;
     color: #fff;
