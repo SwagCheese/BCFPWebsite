@@ -75,9 +75,9 @@ nav ul ul li a {
 
 /* Media Queries */
 
-@media (max-width: 50em) {
+@media (max-width: 20cm) {
     header h1 {
-        font-size: 1cm;
+        font-size: 1.5cm;
     }
 
     header nav ul {
