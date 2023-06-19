@@ -17,32 +17,32 @@ body {
 
 main,
 footer {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1cm;
 }
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 1cm;
+    margin-bottom: 0.5cm;
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 0.75cm;
+    margin-bottom: 0.25cm;
 }
 
 h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 0.5cm;
+    margin-bottom: 0.5cm;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 0.5cm;
 }
 
 ul {
-    margin-bottom: 10px;
+    margin-bottom: 0.5cm;
+    margin-left: 1.5cm;
     list-style-type: square;
 }
 
@@ -50,8 +50,4 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-}
-
-footer p {
-    padding: 10px 0;
 }

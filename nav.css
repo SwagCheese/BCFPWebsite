@@ -10,9 +10,8 @@ ul {
 }
 
 header {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1cm;
 }
 
 header {
@@ -26,7 +25,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 1cm;
 }
 
 nav ul li {
@@ -35,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 0.5cm 1cm;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
@@ -71,14 +70,14 @@ nav ul ul li {
 }
 
 nav ul ul li a {
-    padding: 10px;
+    padding: 0.5cm;
 }
 
 /* Media Queries */
 
-@media (max-width: 600px) {
+@media (max-width: 50em) {
     header h1 {
-        font-size: 28px;
+        font-size: 1cm;
     }
 
     header nav ul {
@@ -91,7 +90,7 @@ nav ul ul li a {
     }
 
     header nav ul li a {
-        padding: 10px 0;
+        padding: 0.5cm 0;
     }
 
     nav ul ul {
@@ -112,7 +111,7 @@ nav ul ul li a {
 
     nav ul ul ul li {
         position: static;
-        top: -30px;
+        top: -0.75cm;
         left: 0;
     }
 }
