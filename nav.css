@@ -76,12 +76,9 @@ nav ul ul li a {
 /* Media Queries */
 
 @media (max-width: 20cm) {
-    header h1 {
-        font-size: 5em;
-    }
-
     header nav ul {
         flex-wrap: wrap;
+        font-size: 2em;
     }
 
     header nav ul li {
